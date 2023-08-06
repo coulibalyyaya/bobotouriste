@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    min-height: 70px;
+    background: rgb(36,145,196 );
+    color: white;
+    font-size: large;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .logo {
+    width: 30%;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+header .container .logo img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+header .container .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+header .container .nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+header .container .nav a:hover,.logo a:hover {
+     color: rgb(165, 42, 42);
+
+}
+header .container .nav a,.logo a{
+    transition: all .5s ease;
+}
+header a i {
+    margin-right: 5px;
+}
+.bani {
+    height: 300Px;
+    margin-top: 70px;
+    color: brown ;
+    text-align: center;
+    font-size:34px;
+    padding: 34px;
+    background: url(dioula.jpg);
+   
+ 
+}
+
+#patri {
+    padding: 5Opx;
+    text-align: center;
+}
+#patri h1{
+    font-size: 34px;
+    color: gray;
+    padding-bottom: 40px;
+
+}
+#patri div img:hover{
+    border-radius: 40px;
+    transition: all 0.5s ease; 
+    
+    margin-left: 20px;
+    margin-bottom:flex ;
+}
+#patri div{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin-right: 40px;
+}
